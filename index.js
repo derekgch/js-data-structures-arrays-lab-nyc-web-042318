@@ -6,5 +6,9 @@ function destructivelyAppendDriver(element) {
 }
 
 function destructivelyPrependDriver(element) {
-  drivers.unshift(element)
+  drivers.unshift(element);
+}
+
+function destructivelyRemoveLastDriver() {
+  drivers.pop();
 }
